@@ -17,7 +17,8 @@ greaterThan(QT_MAJOR_VERSION, 4) {
 # use: BOOST_THREAD_LIB_SUFFIX=_win32-...
 # or when linking against a specific BerkelyDB version: BDB_LIB_SUFFIX=-4.8
 
-BOOST_LIB_SUFFIX=-mgw49-mt-sd-1_55
+#BOOST_LIB_SUFFIX=-mgw49-mt-sd-1_55
+BOOST_LIB_SUFFIX=
 BOOST_INCLUDE_PATH=C:/deps/boost_1_55_0
 BOOST_LIB_PATH=C:/deps/boost_1_55_0/stage/lib
 BDB_INCLUDE_PATH=C:/deps/db-4.8.30.NC/build_unix
